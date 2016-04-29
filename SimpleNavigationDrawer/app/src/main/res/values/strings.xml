@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SimpleNavigationDrawer</string>
+
+
+    <!--for drawer-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_android">Android</string>
+    <string name="nav_item_facebook">Facebook</string>
+    <string name="nav_item_twitter">Twitter</string>
+    <string name="nav_item_dropbox">Dropbox</string>
+    <string name="nav_item_camera">Camera</string>
+    <string name="nav_item_audio">Audio</string>
+    <string name="nav_item_video">Video</string>
+    <string name="nav_item_wifi">WiFi</string>
+    <string name="nav_item_item">item</string>
+    <string name="nav_item_power">Logout</string>
+    <string name="nav_item_cloud">Cloud Network</string>
+    <string name="nav_item_gallery">Gallery</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_android</item>
+        <item>@string/nav_item_facebook</item>
+        <item>@string/nav_item_twitter</item>
+        <item>@string/nav_item_dropbox</item>
+        <item>@string/nav_item_camera</item>
+        <item>@string/nav_item_audio</item>
+        <item>@string/nav_item_video</item>
+        <item>@string/nav_item_wifi</item>
+        <item>@string/nav_item_item</item>
+        <item>@string/nav_item_gallery</item>
+        <item>@string/nav_item_cloud</item>
+        <item>@string/nav_item_power</item>
+
+    </string-array>
+</resources>

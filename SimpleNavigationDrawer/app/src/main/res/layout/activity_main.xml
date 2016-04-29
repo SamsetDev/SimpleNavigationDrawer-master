@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/maintoolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <FrameLayout
+            android:id="@+id/container_body"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <RelativeLayout
+            android:id="@+id/drawer_switch"
+            android:layout_gravity="left|start"
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/drawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background1"
+                 />
+        </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
